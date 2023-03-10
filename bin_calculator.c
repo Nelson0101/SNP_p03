@@ -56,7 +56,7 @@ void print_bit_operation_bin(Expression expression, unsigned int result) {
     */
 
 
-
+    int i = 0;
     printf("%u %c %u = %u\n", expression.operand1, expression.operation, expression.operand2, result);
     printf("%u: ", expression.operand1);
     for (int i = 31; i >= 0; i--) {
@@ -89,7 +89,7 @@ void print_bit_operation_hex(Expression expression, unsigned int result) {
     Hex:
     0x0c ^ 0x0f = 0x03
     */
-
+    int i = 0;
     printf("0x%08x %c 0x%08x = 0x%08x\n", expression.operand1, expression.operation, expression.operand2, result);
     printf("\nBin:\n");
     printf("   ");
@@ -127,7 +127,31 @@ void print_bit_operation_dec(Expression expression, unsigned int result) {
     Dec:
     12 ^ 15 = 3
     */
-    printf("%d %c %d = %d", expression.operand1, expression.operation, expression.operand2, result);
+    int i = 0;
+    printf("%u %c %u = %u\n", expression.operand1, expression.operation, expression.operand2, result);
+    printf("\nBin:\n");
+    printf("   ");
+    for (int i = 0; i < 35; i++) {
+        printf("-");
+    }
+    printf("\n%u: ", expression.operand1);
+    for (int i = 31; i >= 0; i--) {
+        printf("%d", (expression.operand1 >> i) & 1);
+    }
+    printf("\n%u: ", expression.operand2);
+    for (int i = 31; i >= 0; i--) {
+        printf("%d", (expression.operand2 >> i) & 1);
+    }
+    printf("\n   ");
+
+    for (int i = 0; i < 35; i++) {
+        printf("-");
+    }
+    printf("\n%u: ", result);
+    for (int i = 31; i >= 0; i--) {
+        printf("%d", (result >> i) & 1);
+    }
+    printf("\n\n");
 }
 
 unsigned int bit_operation(Expression expression) {
