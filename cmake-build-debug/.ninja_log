@@ -1,0 +1,7 @@
+# ninja log v5
+3	238	7001470725592473	CMakeFiles/untitled.dir/bit_operation.c.obj	dfd825c30be15ae8
+0	101	7001431109236240	CMakeFiles/untitled.dir/main.c.obj	24e1b8cafa6ef0c9
+27	226	7001470725724192	CMakeFiles/untitled.dir/switch_variables.c.obj	e53d74f58bee945d
+35	244	7001470725764194	CMakeFiles/untitled.dir/toLowercase.c.obj	b34af9dc3c297da1
+19	249	7001470725794197	CMakeFiles/untitled.dir/potencyOf2.c.obj	718f02ceb406f728
+11	252	7001470726244198	CMakeFiles/untitled.dir/bin_calculator.c.obj	704680349d980203

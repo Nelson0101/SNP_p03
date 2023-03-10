@@ -1,0 +1,3 @@
+C:/Users/ngaem/CLionProjects/P03_Bit_Operation/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/ngaem/CLionProjects/P03_Bit_Operation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ngaem/CLionProjects/P03_Bit_Operation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
