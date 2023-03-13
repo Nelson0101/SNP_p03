@@ -3,4 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled main.c bit_operation.c bin_calculator.c switch_variables.c toLowercase.c potencyOf2.c)
+add_executable(untitled main.c bit_operation.c bin_calculator.c switch_variables.c toLowercase.c powerOf2.c simple_shape.c)
